@@ -12,17 +12,17 @@ Make sure you run the tests with `learn -b` to get the full output in the browse
 facts = ["He was the last Beatle to learn to drive", "He was never a vegetarian", "He was a choir boy and boy scout", "He hated the sound of his own voice"];
 ```
 
-* In the body of the function, create a variable that stores an empty array.
+* In the body of the function, create a variable, excitingFacts that stores an empty array.
 * Use a while loop to add `"!!!"` to the end of every fact
-* Add the new exciting fact to the empty array
-* Return the array of strings with exclamation points.
+* Use the push array method to add the new exciting fact to excitingFacts
+* Your function should return excitingFacts
 
 ## theBeatlesPlay()
 Create a function `theBeatlesPlay`, which accepts two parameters- an array of musicians and an array of instruments.
- * In the body of the function, first create an empty array stored in a variable, newSentences.
+ * In the body of the function, create an empty array stored in a variable
  * The function should also contain a for loop which loops over the array of musicians.
  * The body of the loop should create a string using the first index of the musicians array and the first index of the instruments array: `"John Lennon plays guitar"`. You can index the musicians array and the instruments array at the same time [Rosetta Code Reference](http://www.rosettacode.org/wiki/Loop_over_multiple_arrays_simultaneously#Imperative).
- * Use the push array method to add each string to the empty array, newSentences.
+ * Add each string to the empty array
  * The function should return the array of new strings.
 
 ## iLoveTheBeatles()
