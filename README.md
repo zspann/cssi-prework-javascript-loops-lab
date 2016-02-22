@@ -5,7 +5,7 @@ Create three functions that pay homage to Fab Four. These functions will have on
 Make sure you run the tests with `learn -b` to get the full output in the browser.
 
 
-# johnLennonFacts()
+## johnLennonFacts()
 + Create a function `johnLennonFacts` which accepts one array, a list of odd facts about the Beatles' guitarist.
 
 ```js
@@ -17,7 +17,7 @@ facts = ["He was the last Beatle to learn to drive", "He was never a vegetarian"
 * Add the new exciting fact to the empty array
 * Return the array of strings with exclamation points.
 
-# theBeatlesPlay()
+## theBeatlesPlay()
 Create a function `theBeatlesPlay`, which accepts two parameters- an array of musicians and an array of instruments.
  * In the body of the function, first create an empty array stored in a variable, newSentences.
  * The function should also contain a for loop which loops over the array of musicians.
@@ -25,7 +25,7 @@ Create a function `theBeatlesPlay`, which accepts two parameters- an array of mu
  * Use the push array method to add each string to the empty array, newSentences.
  * The function should return the array of new strings.
 
-# iLoveTheBeatles()
+## iLoveTheBeatles()
 + Create a function `iLoveTheBeatles` which accepts a number as a parameter.
 
 * The body of the function should create a variable that stores an empty array.
