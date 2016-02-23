@@ -24,6 +24,11 @@ facts = ["He was the last Beatle to learn to drive", "He was never a vegetarian"
 ## The Fab Four in a For Loop
 Create a function that uses a for loop to explain the role of each Brit by using a list of their names and their instruments. 
 
+```js
+musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
+instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
+```
+
 * **Name**: theBeatlesPlay, 
 * **Input**: two parameters- an array of musicians and an array of instruments.
 * **Code Block**: 
