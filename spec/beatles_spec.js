@@ -32,10 +32,9 @@ describe('iLoveTheBeatles', function(){
     expect(iLoveTheBeatles(7).length).toEqual(8);
 
   });
-   it("returns an array of 'I love the Beatles!' once when passed the parameter 17", function(){
-    expect(iLoveTheBeatles(17)).toEqual(["I love the Beatles!"]);
-    expect(iLoveTheBeatles(17).length).toEqual(1);
+   it("returns an array of 'I love the Beatles!' 10 times when passed the parameter 17", function(){
+    expect(iLoveTheBeatles(17)).toEqual(["I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!","I love the Beatles!","I love the Beatles!"]);
+    expect(iLoveTheBeatles(17).length).toEqual(10);
 
   });
 });
-

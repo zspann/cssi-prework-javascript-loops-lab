@@ -26,10 +26,9 @@ Create a function `theBeatlesPlay`, which accepts two parameters- an array of mu
  * The function should return the array of new strings.
 
 ## iLoveTheBeatles()
-+ Create a function `iLoveTheBeatles` which accepts a number as a parameter.
+Create a function `iLoveTheBeatles` which prints "I love the Beatles" at least once and up to 10 times. The function should accept a parameter indicating the number of times the declaration of love should be printed.
 
 * The body of the function should create a variable that stores an empty array.
 * Implement a do-while loop inside the function that adds `"I love the Beatles!"` to the empty array.
-* Then the loop should increment the number passed in as a parameter.
-* The condition of the loop should check to see that the parameter number is less than `15`.
+* The condition of the loop should check to see that the parameter number is less than `10`.
 * The function should return the array with the strings `"I love the Beatles!"`.
