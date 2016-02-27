@@ -4,7 +4,6 @@ Create three functions that pay homage to Fab Four. These functions will have on
 
 Make sure you run the tests with `learn -b` to get the full output in the browser.
 
-
 ## Lennon Facts in a While Loop
 
 Your first function will use a while loop to add exaggerated punctuation to  odd facts about the Beatles' guitarist.
