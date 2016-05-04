@@ -18,8 +18,9 @@ describe('theBeatlesPlay', function(){
 describe('johnLennonFacts', function(){
 
   it("returns an array of strings with exclamation points", function(){
-    expect(johnLennonFacts()).toEqual(["He was the last Beatle to learn to drive!!!", "He was never a vegetarian!!!", "He was a choir boy and boy scout!!!", "He hated the sound of his own voice!!!"]);
-    expect(johnLennonFacts()[0]).toEqual("He was the last Beatle to learn to drive!!!");
+    var facts = ["He was the last Beatle to learn to drive", "He was never a vegetarian", "He was a choir boy and boy scout", "He hated the sound of his own voice"];
+    expect(johnLennonFacts(facts)).toEqual(["He was the last Beatle to learn to drive!!!", "He was never a vegetarian!!!", "He was a choir boy and boy scout!!!", "He hated the sound of his own voice!!!"]);
+    expect(johnLennonFacts(facts)[0]).toEqual("He was the last Beatle to learn to drive!!!");
 
   });
 
