@@ -21,7 +21,7 @@ function theBeatlesPlay(musicians, instruments){
 function iLovetheBeatles(num){
   var finalString = []
   if(num < 10 && num > 0){
-    i = 0
+    var i = 0
     do{
       finalString.push("I love the Beatles!");
       i = i + 1;
