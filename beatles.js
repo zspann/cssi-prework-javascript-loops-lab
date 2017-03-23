@@ -26,5 +26,9 @@ function iLovetheBeatles(num){
       finalString.push("I love the Beatles!");
       i = i + 1;
     } while (i < num)
+    return finalString
+  }
+  else{
+    return "Choose a number from 1 - 10"
   }
 }
